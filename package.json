@@ -1,0 +1,27 @@
+{
+	"name": "docs.shiftcode.eu",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "nuxi dev",
+		"build": "nuxi build",
+		"generate": "nuxi generate",
+		"preview": "nuxi preview",
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@nuxt/eslint-config": "^0.1.1",
+		"@nuxtjs/tailwindcss": "^6.6.0",
+		"@types/node": "^18.15.3",
+		"autoprefixer": "^10.4.14",
+		"daisyui": "^2.51.4",
+		"eslint": "^8.36.0",
+		"nuxt": "^3.3.1",
+		"postcss": "^8.4.21",
+		"prettier": "^2.8.4",
+		"tailwind-scrollbar": "^3.0.0",
+		"tailwindcss": "^3.2.7",
+		"tailwindcss-animate": "^1.0.5",
+		"webpack": "^5.76.2"
+	}
+}
