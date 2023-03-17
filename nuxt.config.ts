@@ -3,7 +3,7 @@ export default {
 		strict: true,
 	},
 	modules: ["@nuxtjs/tailwindcss"],
-	css: ["@/assets/css/tailwind.css"],
+	css: ["@/assets/styles/tailwind.scss"],
 	build: {
 		postcss: {
 			postcssOptions: {
